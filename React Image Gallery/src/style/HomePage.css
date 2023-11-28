@@ -1,0 +1,29 @@
+/* Styling for the parent container */
+#parent {
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: repeat(4, 200px); /* Grid with four columns, each 200px wide */
+    gap: 10px; /* Gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    padding: 10px; /* Padding around the grid */
+  }
+  
+  /* Apply margin: auto to all children of #parent */
+  #parent * {
+    margin: auto;
+  }
+  
+  /* Additional styling for div elements within #parent */
+  #parent div {
+    margin: auto; /* Center the content within each div */
+  }
+  
+  /* Styling for images within #parent */
+  #parent img {
+    height: 200px; /* Set a fixed height for the images */
+    width: 200px; /* Set a fixed width for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply a border-radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover for better user experience */
+  }
+  

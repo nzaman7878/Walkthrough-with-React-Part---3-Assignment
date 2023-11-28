@@ -1,0 +1,47 @@
+/* Styling for the singlePhoto component */
+#singlePhoto {
+    display: flex;
+    background-color: rgb(4, 46, 94);
+    flex-direction: row; /* Horizontal layout */
+    color: white;
+    width: 800px;
+    justify-self: center; /* Center the component within its container */
+    box-shadow: 3px 3px 5px 6px #ccc; /* Apply a subtle box shadow */
+    margin: auto; /* Center the component horizontally */
+    align-self: center; /* Center the component vertically */
+    align-content: center; /* Center the content within the flex container */
+    margin-top: 140px; /* Add some top margin for spacing */
+    padding: 20px; /* Padding around the component */
+  }
+  
+  /* Styling for the h1 element within #singlePhoto */
+  #singlePhoto h1 {
+    font-size: 27px;
+    padding: 10px; /* Add padding to the heading */
+  }
+  
+  /* Styling for the p element within #singlePhoto */
+  #singlePhoto p {
+    font-size: 15px;
+    padding: 10px; /* Add padding to the paragraph */
+  }
+  
+  /* Apply margin: auto to all children of #singlePhoto */
+  #singlePhoto * {
+    margin: auto;
+  }
+  
+  /* Styling for images within #singlePhoto */
+  #singlePhoto img {
+    width: 300px; /* Set a fixed width for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    box-shadow: 1.5px 1.5px 3.5px 3px rgb(66, 107, 154); /* Apply a subtle box shadow */
+    height: 250px; /* Set a fixed height for the image */
+    border-radius: 10px; /* Apply a border-radius for rounded corners */
+  }
+  
+  /* Styling for the div element within #singlePhoto */
+  #singlePhoto div {
+    padding: 20px; /* Add padding to the div */
+  }
+  
